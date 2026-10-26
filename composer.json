@@ -1,38 +1,38 @@
 {
-  "name": "likeplatform/translate",
-  "type": "library",
-  "description": "Paquete de traduccion de eng/esp LikePlatform.",
-  "keywords": [
-    "laravel",
-    "translate",
-    "es",
-    "likeplatform"
-  ],
-  "require": {
-    "php": "^8.1",
-    "illuminate/console": "^11.0"
-  },
-  "license": "MIT",
-  "autoload": {
-    "psr-4": {
-      "Likeplatform\\Translate\\": "src/"
+    "name": "luinuxscl/laravel-jetstream-translate",
+    "type": "library",
+    "description": "Paquete de traduccion de eng/esp LikePlatform.",
+    "keywords": [
+        "laravel",
+        "translate",
+        "es",
+        "likeplatform"
+    ],
+    "require": {
+        "php": "^8.1",
+        "illuminate/console": "^11.0"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Likeplatform\\Translate\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Luis Sepúlveda",
+            "email": "lsepulveda@outlook.com",
+            "role": "Developer"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Likeplatform\\Cli\\CliServiceProvider"
+            ]
+        }
+    },
+    "require-dev": {
+        "orchestra/testbench": "^9.9"
     }
-  },
-  "authors": [
-    {
-      "name": "Luis Sepúlveda",
-      "email": "lsepulveda@outlook.com",
-      "role": "Developer"
-    }
-  ],
-  "extra": {
-    "laravel": {
-      "providers": [
-        "Likeplatform\\Cli\\CliServiceProvider"
-      ]
-    }
-  },
-  "require-dev": {
-    "orchestra/testbench": "^9.9"
-  }
 }
